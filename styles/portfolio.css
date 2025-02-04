@@ -85,7 +85,10 @@ margin-top:5px;
 }
 
 /* main section styles */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about{
     padding: 130px;
@@ -102,5 +105,12 @@ margin-top:5px;
 .section-description{
     color: #757575;
     font-size: 18px;
+    text-align: center;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
     text-align: center;
 }
