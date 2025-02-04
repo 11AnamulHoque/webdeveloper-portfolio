@@ -20,6 +20,7 @@ nav{
     display: flex;  /*show in same block */
     justify-content: space-between;
     align-items: center;
+    margin :0 200px;
 
 
 }
@@ -43,5 +44,18 @@ nav a{
 nav>ul{
     display: flex;  /*show in same block */
     align-items: center;
+
+}
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding:30px  30px  30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width:500px;
 
 }
